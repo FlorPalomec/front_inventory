@@ -23,25 +23,42 @@
   "private": true,
   "packageManager": "npm@10.8.2",
   "dependencies": {
+<<<<<<< HEAD
     "@angular/cdk": "~21.1.5",
+=======
+>>>>>>> 2bbccb1dc63647eab3ac8ed41b196faca291417f
     "@angular/common": "^21.1.0",
     "@angular/compiler": "^21.1.0",
     "@angular/core": "^21.1.0",
     "@angular/forms": "^21.1.0",
+<<<<<<< HEAD
     "@angular/material": "~21.1.5",
     "@angular/platform-browser": "^21.1.0",
     "@angular/router": "^21.1.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "^0.16.1"
+=======
+    "@angular/platform-browser": "^21.1.0",
+    "@angular/router": "^21.1.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0"
+>>>>>>> 2bbccb1dc63647eab3ac8ed41b196faca291417f
   },
   "devDependencies": {
     "@angular/build": "^21.1.4",
     "@angular/cli": "^21.1.4",
     "@angular/compiler-cli": "^21.1.0",
+<<<<<<< HEAD
     "@angular/material": "^21.1.5",
+=======
+>>>>>>> 2bbccb1dc63647eab3ac8ed41b196faca291417f
     "jsdom": "^27.1.0",
     "typescript": "~5.9.2",
     "vitest": "^4.0.8"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 2bbccb1dc63647eab3ac8ed41b196faca291417f

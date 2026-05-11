@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 
 export const DASHBOARD_ROUTES: Routes = [
+<<<<<<< HEAD
   {
     path: '',
     loadComponent: () =>
@@ -32,4 +33,23 @@ export const DASHBOARD_ROUTES: Routes = [
       }
     ]
   }
+=======
+    {
+        path: '',
+        loadComponent: () =>
+            import('./pages/dashboard.component').then(m => m.DashboardComponent),
+        children: [
+            {
+                path: '',
+                loadComponent: () =>
+                    import('./components/home/home').then(m => m.HomeComponent)
+            },
+            {
+                path: 'home',
+                loadComponent: () =>
+                    import('./components/home/home').then(m => m.HomeComponent)
+            }
+        ]
+    }
+>>>>>>> 2bbccb1dc63647eab3ac8ed41b196faca291417f
 ];
